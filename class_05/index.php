@@ -27,7 +27,7 @@
         <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">
             Add User
         </button>
-        <h2 class="">User List</h2>
+        <h2 class=""> <u> User List </u></h2>
 
         <div class="my_section m-auto">
 
