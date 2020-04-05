@@ -1,1 +1,1 @@
-This is learning repository of basic of ajax with php and mysqli
+This is learning repository of basic of ajax with php and MySqli
