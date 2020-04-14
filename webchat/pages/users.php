@@ -6,7 +6,7 @@
                 <strong>BW</strong>
             </div>
 
-            <ul class="list-unstyled components">
+            <ul class="list-unstyled components sticky-top">
                 <div id="users"></div>
             </ul>
         </nav>

@@ -261,4 +261,5 @@ a.article:hover {
     position: fixed;
     bottom: 0;
     width: 80%;
+    background-color: #fff;
 }
