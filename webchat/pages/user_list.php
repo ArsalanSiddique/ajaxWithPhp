@@ -9,7 +9,6 @@ if ($users != false) {
 
 ?>
 
-
         <li>
             <a href="index.php?id=<?php echo $user["user_id"] ?>">
                 <img src="assets/images/1.jpg" class="img-thumbnail" style="border-radius:100px; width: 50px; height:50px;" alt="user">

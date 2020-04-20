@@ -17,6 +17,9 @@
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
+
+
+                    <div class="btn btn-danger"><a href="index.php?msg=logout"><i class="fa fa-power-off"></i></a></div>
                 </div>
             </nav>
 

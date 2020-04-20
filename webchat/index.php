@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$_SESSION["user_id"] = 1;
+// $_SESSION["user_id"] = 1;
 if(isset($_REQUEST["id"])) {
     $_SESSION["rec_id"] = $_REQUEST["id"];
 }
@@ -24,9 +24,20 @@ if(isset($_REQUEST["id"])) {
 // error_reporting(E_ALL & ~E_NOTICE);
 // // =============================================================
 
-require_once("php/crud.php");
-require_once("php/chat.php");
+if(empty($_SESSION["user_id"])) {
+    header("Location: pages/login.php");
+}else if(isset($_REQUEST["msg"])) {
+    if($_REQUEST["msg"] == "logout") {
+        session_destroy();
+        header("Location: index.php");
+    }
+}else {
 
-require_once("pages/head.php");
-require_once("pages/body.php");
-require_once("pages/footer.php");
+    require_once("php/crud.php");
+    require_once("php/chat.php");
+
+    require_once("pages/head.php");
+    require_once("pages/body.php");
+    require_once("pages/footer.php");
+
+}

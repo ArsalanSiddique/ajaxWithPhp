@@ -2,8 +2,8 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bijli Wala</h3>
-                <strong>BW</strong>
+                <h3>WebChat</h3>
+                <strong>WC</strong>
             </div>
 
             <ul class="list-unstyled components sticky-top">

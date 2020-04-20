@@ -13,12 +13,12 @@ if ($messages != false) {
 
         if ($message["sender_id"] == $_SESSION["user_id"] and $message["receiver_id"] == $_SESSION["rec_id"]) {
 
-            $data .= '<div class="alert alert-success float-left">
+            $data .= '<img src="assets/images/1.jpg" class="rounded-circle float-left mr-1" width="50" /><div class="alert alert-success float-left">
                         ' . $message["msg_content"] . '
                     </div>';
         } else if ($message["sender_id"] == $_SESSION["rec_id"] and $message["receiver_id"] == $_SESSION["user_id"]) {
 
-            $data .= '<div class="alert alert-info float-right">
+            $data .= '<img src="assets/images/2.jpg" class="rounded-circle float-right ml-1" width="50" /><div class="alert alert-info float-right">
                         ' . $message["msg_content"] . '
                     </div>';
         }

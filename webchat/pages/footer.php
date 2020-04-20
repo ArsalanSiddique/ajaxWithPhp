@@ -26,8 +26,8 @@
             show_message();
         });
 
-        setInterval(show_message, 500);
-        setInterval(fetch_user, 500);
+        setInterval(show_message, 1000);
+        setInterval(fetch_user, 1000);
 
         function show_message() {
             $.ajax({
