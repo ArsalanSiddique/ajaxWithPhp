@@ -18,8 +18,8 @@
 <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-5">
+        <div class="row mt-5">
+            <div class="col-md-5 m-auto">
 
                 <form action="../php/auth/authentication.php" method="post">
                     <div class="form-group">
@@ -30,7 +30,7 @@
                         <label for="password">Password:</label>
                         <input type="password" class="form-control" name="password" id="password" />
                     </div>
-                    <input type="submit" class="btn btn-success" name="login" value="Submit" />
+                    <input type="submit" class="btn btn-success btn-block" name="login" value="Login" />
                 </form>
 
             </div>

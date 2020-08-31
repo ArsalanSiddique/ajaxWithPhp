@@ -24,8 +24,9 @@ if ($messages != false) {
         }
 
         $data .= '</div>';
-        
+
         echo $data;
+        $users = $chatObj->msgReaded($_SESSION["rec_id"], $_SESSION["user_id"]);
     }
     echo "</div>";
 } else {
